@@ -1,0 +1,37 @@
+{
+  "name": "neo-async",
+  "version": "0.4.8",
+  "description": "Neo-Async is compatible with Async.js, it is faster and has more feature.",
+  "main": "index.js",
+  "keywords": [
+    "async"
+  ],
+  "npmName": "neo-async",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*"
+      ]
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suguru03/neo-async.git"
+  },
+  "author": "suguru03",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/suguru03/neo-async/blob/master/LICENSE"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git@github.com:suguru03/neo-async.git",
+    "basePath": "/dist/",
+    "files": [
+      "async.min.js"
+    ]
+  }
+}
